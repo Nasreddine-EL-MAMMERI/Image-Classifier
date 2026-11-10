@@ -24,7 +24,7 @@ to classify four animal classes: **cow, elephant, horse, spider**.
 ---
 
 ## Results
-à améliorer ... 
+in progress ... 
 
 ---
 
