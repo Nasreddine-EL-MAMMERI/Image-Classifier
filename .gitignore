@@ -1,0 +1,29 @@
+# Data (too large for Git — hosted on Kaggle)
+data/
+!data/.gitkeep
+
+# Trained models
+models/
+!models/.gitkeep
+*.h5
+*.keras
+*.weights.h5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+kaggle.json
+
+# Kaggle outputs
+submission.csv
+*.log
