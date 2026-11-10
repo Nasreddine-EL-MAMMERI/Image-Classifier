@@ -16,7 +16,6 @@
 | Metric | Value |
 |--------|-------|
 | Public Leaderboard accuracy | **0.8475** |
-| Kaggle ranking | **28th place** |
 | Project target (≥ 80%) | ✅ Achieved |
 
 ---
