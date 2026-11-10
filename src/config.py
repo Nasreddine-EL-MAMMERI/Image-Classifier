@@ -40,7 +40,7 @@ IMG_SIZE = (224, 224)
 SEED = 42
 
 # Le notebook utilisait 8 × nombre de GPU (16 sur les 2×T4 de Kaggle).
-BATCH_SIZE = 64
+BATCH_SIZE = 16
 
 EPOCHS = 32
 
@@ -48,6 +48,6 @@ EPOCHS = 32
 # ATTENTION : avec 250 lots/époque et 32 époques (8 000 pas), un
 # decay_steps de 10 000 signifie que le taux n'a JAMAIS décru.
 
-DECAY_STEPS = 10000
+DECAY_STEPS = 2000
 DECAY_RATE = 0.9
 INITIAL_LEARNING_RATE = 1e-3
