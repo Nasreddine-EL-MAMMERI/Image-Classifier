@@ -40,7 +40,7 @@ IMG_SIZE = (224, 224)
 SEED = 42
 
 # Le notebook utilisait 8 × nombre de GPU (16 sur les 2×T4 de Kaggle).
-BATCH_SIZE = 16
+BATCH_SIZE = 64
 
 EPOCHS = 32
 
