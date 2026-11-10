@@ -24,7 +24,16 @@ to classify four animal classes: **cow, elephant, horse, spider**.
 ---
 
 ## Results
-in progress ... 
+| Class | Precision | Recall | F1 | Support |
+|---|---|---|---|---|
+| cow | 0.855 | 0.690 | 0.764 | 197 |
+| elephant | 0.825 | 0.909 | 0.865 | 197 |
+| horse | 0.753 | 0.840 | 0.794 | 200 |
+| spider | 0.952 | 0.927 | 0.939 | 192 |
+| **accuracy** | | | **0.841** | 786 |
+| macro avg | 0.846 | 0.842 | 0.841 | 786 |
+
+58% of the 125 misclassifications are cows predicted as horses.
 
 ---
 
